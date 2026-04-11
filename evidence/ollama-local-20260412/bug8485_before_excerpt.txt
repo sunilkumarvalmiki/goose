@@ -1,0 +1,20 @@
+=== tail ===
+Hermit environment /Users/sunilkumar/workspace/goose activated
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.32s
+     Running unittests src/lib.rs (target/debug/deps/goose-560be290e9c8163d)
+
+running 1 test
+
+thread 'providers::ollama::tests::test_stream_ollama_timeout_on_stall' (1497057) panicked at crates/goose/src/providers/ollama.rs:523:10:
+called `Result::unwrap()` on an `Err` value: failed to open file `/var/folders/q7/x6h6k94911g_dp0dtcqvlmnh0000gn/T/tmp.sCEu7h1vNG/state/logs/llm_request.658ba661-6e4b-478d-9a63-4065e6c8798b.jsonl`: No such file or directory (os error 2)
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test providers::ollama::tests::test_stream_ollama_timeout_on_stall ... FAILED
+
+failures:
+
+failures:
+    providers::ollama::tests::test_stream_ollama_timeout_on_stall
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 1093 filtered out; finished in 0.14s
+
+error: test failed, to rerun pass `-p goose --lib`
