@@ -1,0 +1,18 @@
+
+</info-msg>
+
+  ────────────────────────────────────────
+  ▸ shell developer
+    command: mkdir ./gooseselftest/archive/
+
+mkdir: ./gooseselftest: No such file or directory
+
+Command exited with code 1<info-msg>
+Creating the directory for archive and test artifacts.
+
+</info-msg>
+<output-line>
+
+  ────────────────────────────────────────
+  ▸ shell developer
+    command: mkdir ./gooseselftest/

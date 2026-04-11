@@ -1,0 +1,11 @@
+snapshot assertion for 'all_platform_extensions' failed in line 458
+
+---- providers::ollama::tests::test_stream_ollama_timeout_on_stall stdout ----
+
+thread 'providers::ollama::tests::test_stream_ollama_timeout_on_stall' (1417192) panicked at crates/goose/src/providers/ollama.rs:523:10:
+called `Result::unwrap()` on an `Err` value: failed to open file `/var/folders/q7/x6h6k94911g_dp0dtcqvlmnh0000gn/T/.tmpYAbqZG/state/logs/llm_request.a42f6e79-11e6-46e5-bcd7-c57ef806f595.jsonl`: No such file or directory (os error 2)
+
+
+failures:
+    agents::prompt_manager::tests::test_all_platform_extensions
+    providers::ollama::tests::test_stream_ollama_timeout_on_stall
